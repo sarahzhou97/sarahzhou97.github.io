@@ -1,0 +1,38 @@
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 100%;
+    font-weight:bold;
+}
+
+#typed-effect {
+  color:black;
+  text-align: center;
+  font-size:150%;
+  position:relative;
+  font-family: Courier;
+  padding-top: 20px;
+  display: block;
+  font-weight:bold;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+}
+
+
