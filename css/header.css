@@ -135,29 +135,33 @@ ul.toc {
 }
 
 @media (max-width: 480px) {
+
+  .navbar {
+    display: none;
+  }
   
   .toc-holder {
     display: none;
   }
 
   .mobile-nav {
-    display: inline-block;
+    display: inline-block!important;
     -webkit-padding-start: 5px;
     -webkit-margin-before: 0;
+    padding-left:0px;
     float: right;
+    margin-bottom:0px;
+    width:100%;
   }
 
   #header {
     text-align: left;
     line-height: 30px;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-bottom: 15px;
     display:block;
   }
 
   #header .name {
-    width:40%;
+    width:30%;
     float: left;
     font-size: 12px;
     display: inline-block;
@@ -166,8 +170,7 @@ ul.toc {
   #header .nav {
     display: inline-block;
     float: left;
-    width: 55%;
-        padding-right: 10px;
+    width: 70%;
   }
 
   li.mobile-header {
@@ -196,10 +199,10 @@ ul.toc {
   }
 
   #header {
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     text-align: left;
-    padding-left: 10px;
-    padding-bottom: 15px;
+    /*padding-left: 10px;
+    padding-bottom: 15px;*/
   }
 
   #header .name {
@@ -232,21 +235,17 @@ ul.toc {
     color: #b1b1b1;
   }
 
-  #profile {
-    padding-bottom: 0px;
-  }
-
-  #profile img {
-    padding-top: 40px;
-
-  }
-
   .tagline {
     padding-bottom : 20px; 
   }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .navbar .left {
+    display:none;
+  }
+
   .toc-holder {
     display: none;
   }
@@ -264,10 +263,10 @@ ul.toc {
 
   #header {
     line-height: 10px;
-    padding-top: 20px;
+   /* padding-top: 20px;*/
     text-align: left;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    /*padding-left: 10px;
+    padding-bottom: 10px;*/
   }
 
   #header .name {
@@ -310,6 +309,8 @@ ul.toc {
     margin-bottom: 20px;
   }
 }
+
+
 .navbar {
     position:fixed;
     top:0;
