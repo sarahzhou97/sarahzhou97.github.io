@@ -1,7 +1,7 @@
 /*project css*/
 
 #projects {
-  background-color: #efefef;
+  background-color: #495266;
   height: auto;
   margin-top: 0px;
   font-size: 19px;
@@ -10,8 +10,12 @@
 
 }
 
+#projects .tagline {
+  color:white;
+}
+
 #projectsblock {
-	background-color: #495266;
+	background-color: #fff;
 }
 
 .row {

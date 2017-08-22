@@ -120,6 +120,7 @@ a img {
 
 #educationblock {
   background-color:#C26868;
+/*  background-color:white;*/
 }
 
 span.answer {
@@ -189,7 +190,8 @@ span.answer {
 
 
 #education {
-  background-color: #efefef;
+  /*background-color: #efefef;*/
+  background-color:white;
   height: auto;
   margin-top: 0px;
   font-size: 16px;
@@ -207,8 +209,9 @@ span.answer {
 }
 
 #experienceblock {
-  background-color: #efefef; /*gray blue*/
+  /*background-color: #efefef;*/ /*gray blue*/
 /*  background-color: #464C57; light gray blue*/
+background-color:white;
 }
 
 #experience {
@@ -290,6 +293,10 @@ img.icon:hover {
 
 }
 
+#a10b0554-fef1-4a1f-a5b9-afda98b5621f {
+  background-color: #efefef
+}
+
 
 
 
@@ -312,6 +319,10 @@ img.icon:hover {
   height:100px;
 }
 
+
+.modebar {
+  visibility: hidden;
+}
 
 
 
