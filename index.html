@@ -9,14 +9,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
 	<link href="./css/style.css" rel="stylesheet">
 	<link href="./css/projects.css" rel="stylesheet">
+	<link href="./css/skills.css" rel="stylesheet">
+	<link href="./css/about.css" rel="stylesheet">
 	<link href="./css/typed.css" rel="stylesheet">
 	<link href="./css/header.css" rel="stylesheet">
+	<link href="./css/sketch.css" rel="stylesheet">
 	<script src="./js/jquery-3.2.1.min.js" type="text/javascript"></script>
 	<script src="./js/plotly.js" type="text/javascript"></script>
+	<!-- <script src="./js/sketch.min.js"></script> -->
+	<!-- <script src='https://soulwire.github.io/sketch.js/js/sketch.js'></script>
+	<script src="./js/particles.js"></script> -->
 	<script src="./js/modalsonly/bootstrap.min.js" type="text/javascript"></script>
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Rokkitt|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'> 
-	<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>   
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Rokkitt|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'> 
+	<link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>   
 	<link rel="stylesheet" href="css/modalsonly/bootstrap.min.css">
 </head>
 <body>
@@ -49,19 +55,48 @@
 			</div>
 		</div>
 
-		<div class="block"></div>
+		<div>
+		<div id="intro">
+			<span id = "typed-effect" class="typed"></span>
+		</div>
 
-
-		<!-- Profile picture -->
-		<div id="profile" class="block">
-			<img id = "profile" src="img/profile.jpg">
-			<div id="typed-effect">
-				<span class="element"></span>
-			</div>
+		<div id="sketch-container">
+			
+			<script src="./js/sketch.min.js"></script>
+	<script src="./js/particles.js"></script>
 		</div>
 
 
-		<div id="aboutblock" class="block"></div>
+
+		</div>
+
+		
+		
+	
+
+	
+
+
+
+       
+
+
+		<!-- Profile picture -->
+		<!-- <div id="profile" class="block">
+	
+
+
+
+			<img id = "profile" src="img/profile.jpg">
+
+		</div> -->
+
+
+
+
+
+
+		<!-- <div id="aboutblock" class="block"></div> -->
 
 		<!-- About Me -->
 		<div id="about"><div class="inner">
@@ -370,7 +405,7 @@
 		<script src="./js/typed.js" type="text/javascript"></script>
 		<script>
 			$(function(){
-				$(".element").typed({
+				$(".typed").typed({
 					strings: 
 					[
 					"Student",
@@ -384,12 +419,14 @@
 		</script>
 
 		<script>
-// When the user clicks on <div>, open the popup
+
 function toggleHidden(id) {
 	var popup = document.getElementById(id);
 	popup.classList.toggle("hidden");
 }
 </script>
+
+
 
 
 

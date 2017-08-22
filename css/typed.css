@@ -5,17 +5,24 @@
     animation: blink 0.7s infinite;
     font-size: 100%;
     font-weight:bold;
+    position:relative;
+  left:50%;
+  top:50%;
 }
 
 #typed-effect {
-  color:black;
+  color:white;
   text-align: center;
-  font-size:150%;
+  font-size:250%;
   position:relative;
   font-family: Courier;
   padding-top: 20px;
-  display: block;
+  display: inline;
   font-weight:bold;
+  margin:0 auto;
+  width:100%;
+  /*top:55%;*/
+  z-index:9999;
 }
 
 @keyframes blink{

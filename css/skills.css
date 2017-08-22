@@ -1,0 +1,68 @@
+#educationblock {
+  background-color:#C26868;
+/*  background-color:white;*/
+}
+
+#education {
+  /*background-color: #efefef;*/
+  background-color:white;
+  height: auto;
+  margin-top: 0px;
+  font-size: 16px;
+  line-height: 34px;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+
+.education-thirdwidth {
+  width:20em;
+  display:inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+#experienceblock {
+  /*background-color: #efefef;*/ /*gray blue*/
+/*  background-color: #464C57; light gray blue*/
+background-color:white;
+}
+
+#experience {
+  background-color: #495266;
+  height: auto;
+  margin-top: 0px;
+  font-size: 19px;
+  line-height: 34px;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+#experience .tagline {
+  color:white;
+}
+
+.modebar {
+  visibility: hidden;
+}
+
+
+@media screen and (max-width:700px) {
+  #code, #console {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #profile {
+    overflow: hidden;
+  }
+
+  #education .inner {
+    width: 85%;
+  }
+
+  #education .right {
+    display: none;
+  }
+
+}
